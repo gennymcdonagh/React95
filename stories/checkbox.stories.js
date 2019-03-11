@@ -36,19 +36,13 @@ class CheckBoxStory extends React.Component {
     const { checked } = this.state;
     return (
       <CheckboxList>
-        <Checkbox checked={checked} onChange={this.handleChange}>
-
-          Working
-        </Checkbox>
+        <Checkbox checked={checked} onChange={this.handleChange}>Working</Checkbox>
 
         <Checkbox checked>Checked</Checkbox>
         <Checkbox checked={false}>Unchecked</Checkbox>
         <Checkbox disabled>Disabled</Checkbox>
 
-        <Checkbox disabled checked>
-
-          Checked and Disabled
-        </Checkbox>
+        <Checkbox disabled checked>Checked and Disabled</Checkbox>
       </CheckboxList>
     );
   }
