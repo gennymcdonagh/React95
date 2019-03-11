@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import icons from './icons.js';
+import icons from './icons';
 
 const size = ({ width, height }) => css`
     width: ${width}px;

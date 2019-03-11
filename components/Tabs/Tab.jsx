@@ -40,10 +40,6 @@ const NavItem = styled.li`
 `;
 
 class Tab extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   onClick = () => {
     const { onClick } = this.props;
     onClick(this);

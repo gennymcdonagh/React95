@@ -27,7 +27,6 @@ Input.propTypes = {
 Input.defaultProps = {
   value: '',
   type: 'text',
-  children: null,
 };
 
 export default Input;

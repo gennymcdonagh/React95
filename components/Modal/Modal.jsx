@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import Draggable from 'react-draggable';
 import Btn from '../shared-style/Btn';
 import Button from '../Button';
@@ -248,7 +248,7 @@ Modal.defaultProps = {
   icon: '',
   title: 'Modal',
   buttonsAlignment: 'flex-end',
-  chidren: null,
+  children: null,
   defaultPosition: { x: 0, y: 0 },
   buttons: [],
   menu: [],

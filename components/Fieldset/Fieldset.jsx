@@ -39,4 +39,8 @@ Fieldset.propTypes = {
   children: PropTypes.node,
 };
 
+Fieldset.defaultProps = {
+  children: null,
+};
+
 export default Fieldset;

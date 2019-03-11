@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   width: ${props => props.width}px;
@@ -52,12 +52,12 @@ const ProgressBar = ({ width, percent }) => (
   <Wrapper width={width}>
     <WhiteBar width={width}>
       {percent}
-%
+      %
     </WhiteBar>
     <Container percent={percent}>
       <BlueBar width={width}>
         {percent}
-%
+        %
       </BlueBar>
     </Container>
   </Wrapper>

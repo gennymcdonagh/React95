@@ -69,11 +69,13 @@ Alert.propTypes = {
   message: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['info', 'error', 'warning']),
   closeAlert: PropTypes.func,
+  onCloseModal: PropTypes.func,
 };
 
 Alert.defaultProps = {
   type: 'error',
   closeAlert: () => {},
+  onCloseModal: () => {},
 };
 
 export default Alert;

@@ -61,4 +61,8 @@ Tabs.propTypes = {
   ]),
 };
 
+Tabs.defaultProps = {
+  children: null,
+};
+
 export default Tabs;
